@@ -6,4 +6,13 @@ UML Diagram:
 <img width="1151" height="814" alt="image" src="https://github.com/user-attachments/assets/929dd01d-6c13-4b72-a60a-16735978c323" />
 
 Test Files: 
-The project also includes`a test driver that demonstrates the design with two examples: turning on a Bulb from Brand A and locking a Lock from Brand B, with their usage values displayed from the configuration files.
+A TestRunner class is included to demonstrate and validate the design: it creates a Bulb from Brand A and a Lock from Brand B, performs actions on them, and checks their usage values against the expected results, printing pass/fail messages and a summary of the tests.
+
+How to work the test:
+
+To compile and run the project, open a terminal in the root directory and execute the provided commands. First, compile all Java source files into the out directory using javac -d out $(Get-ChildItem -Recurse -Filter *.java | ForEach-Object { $_.FullName }). Then, run the test suite with java -cp out smarthome.TestRunner. This will execute the TestRunner class, which demonstrates the system using a Bulb from Brand A and a Lock from Brand B, and prints the results of the test cases along with a summary of passed and failed checks.
+
+Sample Test:
+<img width="762" height="184" alt="image" src="https://github.com/user-attachments/assets/c3de7ed7-4dd7-4f00-805b-8c6aee5a4c52" />
+
+
