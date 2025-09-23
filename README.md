@@ -4,3 +4,6 @@ This project implements a smart home system using design patterns like the abstr
 
 UML Diagram:
 <img width="1151" height="814" alt="image" src="https://github.com/user-attachments/assets/929dd01d-6c13-4b72-a60a-16735978c323" />
+
+Test Files: 
+The project also includes`a test driver that demonstrates the design with two examples: turning on a Bulb from Brand A and locking a Lock from Brand B, with their usage values displayed from the configuration files.
