@@ -13,6 +13,8 @@ How to work the test:
 To compile and run the project, open a terminal in the root directory and execute the provided commands. First, compile all Java source files into the out directory using javac -d out $(Get-ChildItem -Recurse -Filter *.java | ForEach-Object { $_.FullName }). Then, run the test suite with java -cp out smarthome.TestRunner. This will execute the TestRunner class, which demonstrates the system using a Bulb from Brand A and a Lock from Brand B, and prints the results of the test cases along with a summary of passed and failed checks.
 
 Sample Test:
+
+
 <img width="762" height="184" alt="image" src="https://github.com/user-attachments/assets/c3de7ed7-4dd7-4f00-805b-8c6aee5a4c52" />
 
 
