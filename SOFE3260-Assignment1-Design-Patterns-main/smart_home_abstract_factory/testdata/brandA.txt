@@ -1,0 +1,2 @@
+BulbA=60
+LockA=2000

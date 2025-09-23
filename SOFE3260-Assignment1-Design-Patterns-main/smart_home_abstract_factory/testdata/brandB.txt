@@ -1,0 +1,2 @@
+BulbB=75
+LockB=2500
